@@ -1,0 +1,13 @@
+{
+  "name": "IGN - E3 2013 Social Hub",
+  "version": "1.0.0",
+  "main": [
+    "./src/main.js"
+  ],
+  "dependencies": {
+    "streamhub-backbone": "git@github.com:gobengo/streamhub-backbone.git#1.2.0-alpha.2",
+    "streamhub-isotope": "git@github.com:genehallman/streamhub-isotope.git#1.1.0-alpha.4",
+    "jquery": "1.9.1",
+    "requirejs": "*"
+  }
+}

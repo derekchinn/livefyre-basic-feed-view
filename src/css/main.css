@@ -1,0 +1,119 @@
+body
+{
+	background-color: #EAEAEA;
+    color: #4D4D4D;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0px;
+    text-align: center;
+}
+.clear-float { clear: both; }
+
+#fyre-hub-container {
+	margin: 0px auto;
+	width: 320px;
+	text-align: left;
+}
+#fyre-hub-container a
+{
+    cursor: pointer;
+    text-decoration: none;
+} 
+#fyre-hub-container a:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#fyre-hub-container .hub-byline a.hub-author:hover,
+#fyre-hub-container a.hub-author-mention:hover
+{
+    color: #0087BB;
+    text-decoration: none;
+}
+/* General rich media content rule to not break the layout */
+#fyre-hub-container .hub-attachment.hub-attachment-rich iframe
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+/* This is for Vine content */
+#fyre-hub-container .hub-attachment.hub-attachment-rich iframe[width="600"][height="600"]
+{
+    border: none;
+    height: 290px !important;
+    width: 290px !important;
+}
+/* This is for Youtube content */
+#fyre-hub-container .hub-attachment.hub-attachment-rich iframe[width="854"][height="480"] {
+    border: none;
+    width: 290px !important;
+    height: 163px !important;
+}
+
+.hub-item.hub-content
+{
+    background-color: #FFF;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow:  0px 0px 3px #CCC;
+    -webkit-box-shadow: 0px 0px 3px #CCC;
+    box-shadow: 0px 0px 3px #CCC;
+    padding: 10px;
+}
+.hub-author
+{
+    color: #4D4D4D;
+    font-size: 14px;
+}
+.hub-author-mention
+{
+    color: #999999; 
+    font-style: italic;
+}
+.hub-body a
+{
+    color: #0087BB;
+    font-weight: normal;
+}
+.hub-timestamp
+{
+    color: #999999;
+    font-size: 8px;
+    float: left;
+}
+
+.hub-twitter-logo, .hub-logo
+{
+    height: 9px !important;
+    width: 10px !important;
+    float: right;
+    margin-top: 5px;
+    margin-left: 0px !important;
+}
+.hub-avatar img
+{
+    height: 30px;
+    width: 30px;
+}
+
+#fyre-feed-container
+{
+    float: left;
+    margin: 0px 15px 0px 5px;
+    width: 309px;
+}
+#fyre-feed
+{
+    margin-top: 10px;
+}
+#fyre-feed .hub-item.hub-content
+{
+    margin: 7px 0px 7px 0px;
+    padding: 10px;
+    width: 289px;
+}
+#fyre-feed .hub-body, #fyre-media-wall .hub-body-html
+{
+    margin: 5px 0px 10px 0px;
+}

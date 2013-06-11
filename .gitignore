@@ -1,0 +1,10 @@
+# Eclipse ignores
+.settings
+.project
+
+# Project specific ignores
+/node_modules
+/lib
+
+#Mac stuff
+.DS_Store
